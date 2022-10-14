@@ -1,4 +1,4 @@
-# 5번문제 정답
+# 5번 정답
 
 import heapq
 import sys
