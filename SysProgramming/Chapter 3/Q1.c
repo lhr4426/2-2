@@ -14,7 +14,7 @@ int main(int argc, char *argv[]){
 	}
 
 	struct stat buf;
-	int filtType, n;
+	int fileType, n;
 
 	stat(argv[1], &buf);
 	fileType = buf.st_mode & S_IFMT;
