@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	while ((dent = readdir(dp))) {
-		if (dent->d_name[9] == '.') continue;
+		if (dent->d_name[0] == '.') continue;
 		else {
 			sprintf(path, "%s/%s", argv[1], dent->d_name);
 			stat(path, &sbuf);
