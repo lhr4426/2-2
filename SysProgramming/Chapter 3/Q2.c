@@ -2,7 +2,7 @@
 // 접근 권한 변경 (문자모드)
 
 #include <sys/types.h>
-#include <sys/stato.h>
+#include <sys/stat.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
